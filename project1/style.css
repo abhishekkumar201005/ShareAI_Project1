@@ -5,7 +5,7 @@
 }
 /* Global */
 body{
-    font-family: "Merriweather",sans-serif;
+    font-family: "Merriweather","sans-serif";
     background-color: #ebf2ff;
 }
 .button__primary{
@@ -33,7 +33,47 @@ align-items: center;
 width: 100%;
 }
 
+
+/* Hero section */
+.container{
+    width:100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.hero__container{
+    width: 100%;
+}
+.hero__image__container{
+    width: 100%;
+}
+.hero__image{
+    width: 100%;
+}
+.hero__text{
+    font-size: 30px;
+    color:
+}
+
+/* Food Menu */
+.food__menu__card{
+    width:100%;
+}
+.food__image{
+    width:100%;
+}
 @media(min-width:768px){
+    .button__primary{
+        background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+      );
+      color: #ffffff;
+      padding: 12px 12px;
+      border: none;
+      border-radius: 6px;  
+    }
 .navbar{
     justify-content: space-between;
     padding: 10px 20px;
@@ -52,30 +92,21 @@ width: 100%;
     justify-content: space-around;
 }
 }
+
+
 @media(min-width:1020px){
     .container{
-        max-width: 1000px;
+        max-width: 900px;
     }
-    .hero__image__container{
-        width:500px;
-        height: 500px;
+    .hero__text{
+        font-size: 60px;
     }
 }
+
+
 @media(min-width:1400px){
-    
+    .container{
+        max-width: 1250px;
+    }
 }
-/* Hero section */
-.container{
-    width:100%;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-.hero__container{
-    width: 100%;
-}
-.hero__image__container{
-    width: 100%;
-}
-.hero__image{
-    width: 100%;
-}
+
